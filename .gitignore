@@ -1,0 +1,8 @@
+# dependencies installed by npm
+node_modules
+
+# MacOS networking garbage
+.DS_Store
+
+# build output
+dist
