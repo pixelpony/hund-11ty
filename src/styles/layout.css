@@ -6,7 +6,7 @@
   scrollbar-gutter: stable both-edges;
 }
 body {
-margin: var(--gutter-primary);
+  margin: var(--gutter-primary);
 }
 
 header {
@@ -14,10 +14,6 @@ header {
   gap: var(--space-s);
   align-items: baseline;
   margin-bottom: var(--space-m);
-}
-header > .site-name {
-  font-size: var(--step-0);
-  font-weight: bold;
 }
 header > nav {
   display: flex;
@@ -41,7 +37,7 @@ blockquote {
 
 h1,
 h2 {
-  margin-bottom: var(--space-m);
+  margin-bottom: var(--space-s);
 }
 img, picture {
   height: auto;

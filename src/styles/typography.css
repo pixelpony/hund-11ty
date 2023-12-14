@@ -2,7 +2,7 @@
   --body-font: system-ui;
   --body-line-height: 1.5;
   --heading-font: system-ui;
-  --font-weight-normal: "normal";
+  --font-weight-normal: normal;
   --font-weight-bold: bold;
 
   font-size: var(--step-0);
@@ -23,7 +23,7 @@ h3 {
 }
 
 h1 {
-  font-size: var(--step-2);
+  /* font-size: var(--step-2); */
 }
 h2 {
   font-size: var(--step--1);
@@ -41,5 +41,10 @@ main > h1 {
 
 }
 section > article > h1 {
+  font-size: var(--step--0);
+}
+
+header > .site-name {
   font-size: var(--step-0);
+  font-weight: bold;
 }
