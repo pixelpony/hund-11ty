@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title @text="meta.site.title"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="meta.author.name" />
+    <meta name="description" content="meta.site.description" />
+    <style @raw="getBundle('css')" webc:keep></style>
+    <script @raw="getBundle('js')" webc:keep></script>
+  </head>
+  <body>
+    <slot @raw="content" webc:nokeep></slot>
+  </body>
+</html>

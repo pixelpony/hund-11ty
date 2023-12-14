@@ -1,0 +1,10 @@
+---
+permalink: "/posts/index.html"
+description: "plop"
+navigation:
+  order: 1
+  label: Posts
+---
+
+<h1>These are my posts.</h1>
+<posts-list :items="$data.collections.posts"></posts-list>
