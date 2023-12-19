@@ -1,7 +1,6 @@
 a,
 a:link {
   text-decoration: 3px underline gold;
-  /* color: inherit; */
 }
 a:visited {
   text-decoration-color: #aaa;
@@ -9,6 +8,3 @@ a:visited {
 a:hover {
   text-decoration-color: #c33;
 }
-/* .header-items > nav h1 a {
-  text-decoration: none;
-} */

@@ -14,6 +14,11 @@ body {
   font-weight: var(--font-weight-normal);
 }
 
+header > .site-name {
+  font-size: var(--step-0);
+  font-weight: bold;
+}
+
 h1,
 h2,
 h3 {
@@ -22,29 +27,21 @@ h3 {
   line-height: var(--heading-line-height);
 }
 
-h1 {
-  /* font-size: var(--step-2); */
+main > h1 {
+  font-size: var(--step-2);
 }
-h2 {
+main > h2 {
   font-size: var(--step--1);
 }
-h3 {
+main > h3 {
   font-size: var(--step--0);
   font-style: italic;
   font-weight: normal;
 }
-blockquote {
+main > blockquote {
   font-style: italic;
 }
-main > h1 {
-  font-size: var(--step-2);
 
-}
 section > article > h1 {
   font-size: var(--step--0);
-}
-
-header > .site-name {
-  font-size: var(--step-0);
-  font-weight: bold;
 }
