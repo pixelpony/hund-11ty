@@ -1,11 +1,12 @@
 :root {
   --content-width: 42ch;
-  /* --content-width: 30rem; */
   --gutter-primary: var(--space-2xs); 
   --gap-tiny: var(--space-2xs);
   scrollbar-gutter: stable both-edges;
 }
+
 body {
+  display: block;
   margin: var(--gutter-primary);
 }
 
@@ -15,6 +16,7 @@ header {
   align-items: baseline;
   margin-bottom: var(--space-m);
 }
+
 header > nav {
   display: flex;
   align-items: baseline;
@@ -22,23 +24,30 @@ header > nav {
 }
 
 main {
+  display: block;
   width: min(var(--content-width), 100%);
-  padding:  0 0 var(--space-m) ; 
   margin: 0 auto;
+  padding:  0 0 var(--space-m) ; 
 }
 
 p {
+  display: block;
   margin-bottom: var(--space-xs);
 }
 
 blockquote {
-  margin: 0 0 var(--gutter-primary) var(--space-m);
+  display: block;
+  margin-left: var(--space-s);
+  margin-bottom: var(--gutter-primary);
 }
 
 h1,
 h2 {
+  display: block;
   margin-bottom: var(--space-s);
 }
+
 img, picture {
+  display: block;
   height: auto;
 }

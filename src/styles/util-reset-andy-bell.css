@@ -19,10 +19,10 @@ figure, blockquote, dl, dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
+/* ul[role='list'],
 ol[role='list'] {
   list-style: none;
-}
+} */
 
 /* Set core body defaults */
 body {
@@ -37,16 +37,16 @@ button, input, label {
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
+/* h1, h2,
 h3, h4 {
   text-wrap: balance;
-}
+} */
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
+/* a:not([class]) {
   text-decoration-skip-ink: auto;
   color: currentColor;
-}
+} */
 
 /* Make images easier to work with */
 img,
@@ -67,6 +67,6 @@ textarea:not([rows]) {
 }
 
 /* Anything that has been anchored to should have extra scroll margin */
-:target {
+/* :target {
   scroll-margin-block: 5ex;
-}
+} */
