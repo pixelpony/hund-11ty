@@ -6,5 +6,5 @@ navigation:
   label: Posts
 ---
 
-<h1>These are my posts.</h1>
+<h1>These are my posts</h1>
 <posts-list :items="$data.collections.posts"></posts-list>
