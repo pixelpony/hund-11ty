@@ -1,6 +1,6 @@
 :root {
   --content-width: 42ch;
-  --gutter-primary: var(--space-2xs); 
+  --gutter-primary: var(--space-2xs);
   --gap-tiny: var(--space-2xs);
   scrollbar-gutter: stable both-edges;
 }
@@ -8,6 +8,14 @@
 body {
   display: block;
   margin: var(--gutter-primary);
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration-thickness: 0.15em;
 }
 
 header {
@@ -27,7 +35,7 @@ main {
   display: block;
   width: min(var(--content-width), 100%);
   margin: 0 auto;
-  padding:  0 0 var(--space-m) ; 
+  padding: 0 0 var(--space-m);
 }
 
 p {
@@ -47,7 +55,8 @@ h2 {
   margin-bottom: var(--space-s);
 }
 
-img, picture {
+img,
+picture {
   display: block;
   height: auto;
 }

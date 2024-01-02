@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ./page-layouts/default.webc
 permalink: /about/
 ---
 

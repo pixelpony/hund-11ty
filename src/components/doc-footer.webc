@@ -1,0 +1,10 @@
+<style>
+  /* body {
+    display: block;
+    margin: var(--gutter-primary);
+  } */
+</style>
+
+<footer>
+  <slot @raw="content" webc:nokeep></slot>
+</footer>

@@ -1,0 +1,29 @@
+---
+layout: ./page-layouts/_root.webc
+---
+
+<link rel="stylesheet" href="../styles/util-reset.css" />
+<link rel="stylesheet" href="../styles/util-type-scale.css" />
+<link rel="stylesheet" href="../styles/util-space-scale.css" />
+<link rel="stylesheet" href="../styles/util-fonts.css" />
+<link rel="stylesheet" href="../styles/typography.css" />
+<link rel="stylesheet" href="../styles/layout.css" />
+<link rel="stylesheet" href="../styles/decoration.css" />
+
+<body>
+  <doc-header webc:nokeep>
+    <div class="site-name" slot="title">
+      <a href="/">Hund</a>
+    </div>
+    <nav slot="nav">
+      <a href="/posts/">Posts</a>
+      <a href="/about/">About</a>
+    </nav>
+  </doc-header>
+
+  <slot @raw="content" webc:nokeep></slot>
+
+  <doc-footer webc:nokeep>
+    <span>&copy; 2023</span>
+  </doc-footer>
+</body>

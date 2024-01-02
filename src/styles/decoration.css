@@ -1,8 +1,10 @@
 /* colors */
-/* NO SIDE EFFECTS ON LAYOUT */
 
-a, a:link, a:visited, a:hover, a:active {
-  text-decoration-thickness: .15em;
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration-line: underline;
   text-decoration-color: gold;
 }

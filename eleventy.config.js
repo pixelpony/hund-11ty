@@ -6,12 +6,14 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/images"));
   config.addPlugin(require("./.eleventy.config/rss"));
 
+  // layouts: "layouts",
   return {
     dir: {
       input: "src",
       output: "dist",
-      layouts: "layouts",
       data: "data",
+      includes: "",
+      layouts: "",
     },
   };
 };

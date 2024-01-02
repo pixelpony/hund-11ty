@@ -1,21 +1,10 @@
 ---
 permalink: /
-layout: default
+layout: ./page-layouts/default.webc
 ---
 
 <h1>A Reverie of Cerebral Exploration</h1>
 
-<!--
-<img
-  webc:is="eleventy-image"
-  src="./src/images/IMG_2745.jpeg"
-  alt="View of Astoria, NY from our roof top."
-  width="200, 400, 600, 800, 1000, 1200, 1400, 1600"
-  class="some-custom-class"
-  sizes=""
-/> 
-sizes = '100vw'
--->
 <img
   webc:is="eleventy-image"
   src="./src/images/IMG_2745.jpeg"

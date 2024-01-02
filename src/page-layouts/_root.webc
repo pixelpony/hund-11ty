@@ -9,7 +9,6 @@
     <style @raw="getBundle('css')" webc:keep></style>
     <script @raw="getBundle('js')" webc:keep></script>
   </head>
-  <body>
-    <slot @raw="content" webc:nokeep></slot>
-  </body>
+
+  <slot @raw="content" webc:nokeep></slot>
 </html>

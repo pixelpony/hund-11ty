@@ -1,5 +1,5 @@
 module.exports = {
-  layout: "default",
+  layout: "./page-layouts/default.webc",
   permalink(data) {
     return `/posts/${data.page.fileSlug}/`;
   },
