@@ -3,43 +3,50 @@ permalink: /
 layout: ./page-layouts/default.webc
 ---
 
-<h1>A Reverie of Cerebral Exploration</h1>
+<main>
+  <header>
+    <h1>A Reverie of Cerebral Exploration</h1>
+  </header>
 
-<img
-  webc:is="eleventy-image"
-  src="./src/images/IMG_2745.jpeg"
-  alt="View of Astoria, NY from our roof top."
-  width="400, 800, 1200, 1600, 3200"
-  class="some-custom-class"
-  sizes="100vw"
-/>
+  <article>
+    <p>
+      In the vast, wild carnival of [cerebral curiosities](/posts/cat), imagine
+      a concept that's like the stand-up comedian of abstract notions—charmingly
+      irreverent, occasionally cheeky, and [remarkably easy](/posts/first-post)
+      to follow, even for the most laissez-faire intellects. It's akin to the
+      "knock-knock" joke at the door of enlightenment, inviting even the most
+      simple-minded to chuckle along the corridors of understanding.
+    </p>
 
-<p>
-  In the vast, wild carnival of [cerebral curiosities](/posts/cat), imagine a
-  concept that's like the stand-up comedian of abstract notions—charmingly
-  irreverent, occasionally cheeky, and [remarkably easy](/posts/first-post) to
-  follow, even for the most laissez-faire intellects. It's akin to the
-  "knock-knock" joke at the door of enlightenment, inviting even the most
-  simple-minded to chuckle along the corridors of understanding.
-</p>
+    <hund-photo
+      @linked="true"
+      file="IMG_2745.jpeg"
+      alt="View of Astoria, NY from our roof top."
+      width="400, 800, 1200, 1600, 3200"
+      sizes="100vw"
+    ></hund-photo>
 
-<p>
-  This concept, bless its heart, is like the class clown of intellectual
-  revelations—approachable, affable, and refreshingly unburdened by the weighty
-  robes of pretentious complexity. It doesn't require a secret handshake or a
-  decoder ring; it's more like a straightforward wink and a nudge, leaving the
-  author with a smirk of comprehension that even a mischievous teenager would
-  appreciate.
-</p>
+    <p>
+      This concept, bless its heart, is like the class clown of intellectual
+      revelations—approachable, affable, and refreshingly unburdened by the
+      weighty robes of pretentious complexity. It doesn't require a secret
+      handshake or a decoder ring; it's more like a straightforward wink and a
+      nudge, leaving the author with a smirk of comprehension that even a
+      mischievous teenager would appreciate.
+    </p>
 
-<p>
-  In the grand comedy club of profound insights, this concept takes the stage
-  with a quip and a twinkle, turning the often solemn pursuit of knowledge into
-  a lighthearted romp. It's the kind of intellectual merriment that brings a
-  playful sparkle to the eyes of even the most simplicity-loving minds, making
-  the grand tapestry of life's origins and cultural intricacies feel like a
-  stand-up routine that everyone can enjoy, no PhD required.
-</p>
-
-<h2>Articles</h2>
-<posts-list :items="$data.collections.posts"></posts-list>
+    <p>
+      In the grand comedy club of profound insights, this concept takes the
+      stage with a quip and a twinkle, turning the often solemn pursuit of
+      knowledge into a lighthearted romp. It's the kind of intellectual
+      merriment that brings a playful sparkle to the eyes of even the most
+      simplicity-loving minds, making the grand tapestry of life's origins and
+      cultural intricacies feel like a stand-up routine that everyone can enjoy,
+      no PhD required.
+    </p>
+  </article>
+  <section>
+    <h2>Articles</h2>
+    <posts-list :items="$data.collections.posts"></posts-list>
+  </section>
+</main>

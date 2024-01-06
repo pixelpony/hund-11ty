@@ -1,0 +1,24 @@
+<style webc:scoped>
+  :host {
+    background: blue;
+  }
+  :host:defined {
+    background: rebeccapurple;
+  }
+</style>
+
+<section class="photo-list">
+  <script webc:type="js">
+    const _photos = items;
+    _photos
+      .map((photo) => {
+        return `
+          <article>
+            <h1><a href="${photo.page_url}/">${photo.file_name}</a></h1>
+          </article>`;
+      })
+      .join("\n");
+  </script>
+
+  <!-- Inspired from https://11ty.webc.fun/recipes/looping-render-function/ -->
+</section>

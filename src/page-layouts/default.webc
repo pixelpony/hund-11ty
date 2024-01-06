@@ -18,6 +18,7 @@ layout: ./page-layouts/_root.webc
     <nav slot="nav">
       <a href="/posts/">Posts</a>
       <a href="/about/">About</a>
+      <a href="/photos/">Photos</a>
     </nav>
   </doc-header>
 
