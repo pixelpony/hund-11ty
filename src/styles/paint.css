@@ -1,0 +1,14 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration-line: underline;
+  text-decoration-color: gold;
+}
+a:visited {
+  text-decoration-color: #aaa;
+}
+a:hover {
+  text-decoration-color: #c33;
+}

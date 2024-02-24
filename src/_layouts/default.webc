@@ -1,0 +1,30 @@
+---
+layout: _root
+---
+
+<link rel="stylesheet" href="../styles/util/font-families.css" />
+<link rel="stylesheet" href="../styles/util/type-scale.css" />
+<link rel="stylesheet" href="../styles/util/space-scale.css" />
+
+<link rel="stylesheet" href="../styles/type.css" />
+<link rel="stylesheet" href="../styles/space.css" />
+<link rel="stylesheet" href="../styles/paint.css" />
+
+<header webc:is="doc-header">
+  <div slot="title">
+    <a href="/">Hund</a>
+  </div>
+  <nav slot="nav">
+    <a href="/posts/">Posts</a>
+    <a href="/about/">About</a>
+    <a href="/photos/">Photos</a>
+  </nav>
+</header>
+
+<main>
+  <slot @raw="content" webc:nokeep></slot>
+</main>
+
+<footer webc:is="doc-footer">
+  <span>&copy; 2023</span>
+</footer>

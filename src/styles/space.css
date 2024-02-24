@@ -1,0 +1,85 @@
+:root {
+  scrollbar-gutter: stable both-edges;
+
+  --content-width: 42ch;
+  --gutter-primary: var(--space-2xs);
+  --gap-tiny: var(--space-2xs);
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration-thickness: 0.15em;
+}
+
+p {
+  margin-bottom: var(--space-xs);
+}
+
+blockquote {
+  margin-left: var(--space-s);
+  margin-bottom: var(--gutter-primary);
+}
+
+h1,
+h2 {
+  margin-bottom: var(--space-s);
+}
+
+img,
+picture {
+  display: block;
+  height: auto;
+}
+
+body {
+  margin: var(--gutter-primary);
+}
+
+body > header {
+  display: flex;
+  gap: var(--space-s);
+  align-items: baseline;
+  margin-bottom: var(--space-m);
+}
+
+body > header > nav {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2xs);
+}
+
+main {
+  padding-bottom: var(--space-m);
+}

@@ -1,5 +1,0 @@
-<style></style>
-
-<main>
-  <slot @raw="content" webc:nokeep></slot>
-</main>

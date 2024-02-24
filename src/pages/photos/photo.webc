@@ -1,0 +1,12 @@
+---
+permalink: "/photos/{{photo.file_name}}/"
+layout: default
+
+pagination:
+  data: photos
+  size: 1
+  alias: photo
+---
+
+<h1>great photo</h1>
+<p>{{photo.page_url}}</p>

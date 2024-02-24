@@ -1,6 +1,0 @@
-<header>
-  <slot name="logo"></slot>
-  <slot name="title"></slot>
-  <slot name="nav"></slot>
-  <slot name="menu"></slot>
-</header>

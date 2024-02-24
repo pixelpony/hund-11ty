@@ -1,19 +1,20 @@
 module.exports = (config) => {
-  config.addPlugin(require("./.eleventy.config/collections"));
-  config.addPlugin(require("./.eleventy.config/webc"));
-  config.addPlugin(require("./.eleventy.config/markdown"));
-  config.addPlugin(require("./.eleventy.config/styles"));
-  config.addPlugin(require("./.eleventy.config/images"));
-  config.addPlugin(require("./.eleventy.config/rss"));
+  config.addPlugin(require("./.eleventy.plugins/webc"));
+  config.addPlugin(require("./.eleventy.plugins/collections"));
+  config.addPlugin(require("./.eleventy.plugins/markdown"));
+  config.addPlugin(require("./.eleventy.plugins/images"));
+  config.addPlugin(require("./.eleventy.plugins/rss"));
 
-  // layouts: "layouts",
+  config.addPassthroughCopy({ "src/styles": "css" });
+  config.addWatchTarget("src/styles/*.css");
+
   return {
     dir: {
-      input: "src",
       output: "dist",
-      data: "data",
+      input: "src",
+      data: "_data",
+      layouts: "_layouts",
       includes: "",
-      layouts: "",
     },
   };
 };

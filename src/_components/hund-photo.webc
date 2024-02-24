@@ -1,0 +1,11 @@
+<!--
+<script :defer="script.defer ? '' : false"></script>
+-->
+
+<img
+  webc:is="eleventy-image"
+  :src="`./src/cms/photos/${file}`"
+  :alt="alt"
+  :width="width"
+  :sizes="sizes"
+/>
