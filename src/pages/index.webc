@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
 <article>
@@ -44,5 +45,7 @@ layout: default
 
 <section class="collection">
   <h2>Articles</h2>
+  <!---
   <posts-list :items="$data.collections.posts"></posts-list>
+--->
 </section>

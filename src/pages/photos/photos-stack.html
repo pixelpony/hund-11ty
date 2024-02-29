@@ -1,6 +1,7 @@
 ---
 permalink: "/photos/{{photo.file_name}}/"
 layout: default
+addAllPagesToCollections: true
 
 pagination:
   data: photos
@@ -9,4 +10,4 @@ pagination:
 ---
 
 <h1>great photo</h1>
-<p>{{photo.page_url}}</p>
+<p>{{ photo.page_url }}</p>

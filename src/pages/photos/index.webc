@@ -6,5 +6,4 @@ description: "plop"
 
 <article class="post">
   <h1>These are my photos.</h1>
-  <photo-list :items="$data.photos"></photo-list>
 </article>

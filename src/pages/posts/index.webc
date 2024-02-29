@@ -1,6 +1,7 @@
 ---
 description: plop
 layout: default
+permalink: /posts/
 ---
 
 <h1>These are my posts.</h1>

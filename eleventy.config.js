@@ -1,6 +1,6 @@
 module.exports = (config) => {
   config.addPlugin(require("./.eleventy.plugins/webc"));
-  config.addPlugin(require("./.eleventy.plugins/collections"));
+  // config.addPlugin(require("./.eleventy.plugins/collections"));
   config.addPlugin(require("./.eleventy.plugins/markdown"));
   config.addPlugin(require("./.eleventy.plugins/images"));
   config.addPlugin(require("./.eleventy.plugins/rss"));
